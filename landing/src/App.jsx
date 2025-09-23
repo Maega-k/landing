@@ -8,6 +8,7 @@ import Login from './login';
 import Footer from './footer';
 import Contact from './contact';
 import Products from './products';
+import Home from './home';
 
 
 function App() {

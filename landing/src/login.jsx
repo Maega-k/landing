@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Mail, Lock, User, Eye, EyeOff, Facebook, Chrome } from 'lucide-react';
 import { motion } from 'framer-motion';
+import Navbar from './navbar';
 
 export default function Login() {
   const [isLogin, setIsLogin] = useState(true);
@@ -29,6 +30,7 @@ export default function Login() {
   };
 
   return (
+     <Navbar />
     <motion.div
       className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center p-4"
       initial={{ opacity: 0 }}

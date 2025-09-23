@@ -1,9 +1,11 @@
 import React from "react";
 import { Mail, Lock, User, Instagram, Twitter, Facebook, Chrome } from 'lucide-react';
 import { motion } from "framer-motion";
+import Navbar from './navbar';
 
 function Contact() {
   return (
+    <Navbar />
     <motion.section
       className="bg-gradient-to-br from-orange-100 to-orange-300 min-h-screen py-12 px-4 flex flex-col items-center"
       initial={{ opacity: 0 }}

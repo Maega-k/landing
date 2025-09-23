@@ -5,6 +5,7 @@ import Navbar from './navbar';
 
 function Contact() {
   return (
+    <>
     <Navbar />
     <motion.section
       className="bg-gradient-to-br from-orange-100 to-orange-300 min-h-screen py-12 px-4 flex flex-col items-center"
@@ -151,6 +152,7 @@ function Contact() {
         </motion.div>
       </motion.div>
     </motion.section>
+      </>
   );
 }
 

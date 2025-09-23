@@ -12,7 +12,7 @@ function Navbar() {
       <nav className="hidden md:block container mx-auto p-9 bg-orange">
         <div className="flex items-center justify-between">
           <div>
-            <img src="public/img/needle.svg" alt="Logo" className="h-8 px-7" />
+            <img src="img/needle.svg" alt="Logo" className="h-8 px-7" />
           </div>
           <div className="space-x-5">
             <motion.div
@@ -53,7 +53,7 @@ function Navbar() {
 
       {/* Mobile Navbar - Hamburger */}
       <nav className="md:hidden bg-orange p-4 flex items-center justify-between">
-        <img src="public/img/needle.svg" alt="Logo" className="h-8 px-2" />
+        <img src="img/needle.svg" alt="Logo" className="h-8 px-2" />
         <button
           onClick={() => setSidebarOpen(true)}
           className="text-white"

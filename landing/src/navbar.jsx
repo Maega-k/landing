@@ -97,19 +97,19 @@ function Navbar() {
                 Home
               </Link>
             </motion.div>
-            <motion.div
+             <motion.div
               whileHover={{ scale: 1.15 }}
               whileTap={{ scale: 0.95 }}
               transition={{ type: "spring", stiffness: 200 }}
               style={{ display: "inline-block" }}
             >
-              <a
-                href=" "
+              <Link
+                to="/products"
                 className="text-white font-bold text-xl hover:text-black"
                 onClick={() => setSidebarOpen(false)}
               >
                 Products
-              </a>
+              </Link>
             </motion.div>
             <motion.div
               whileHover={{ scale: 1.15 }}

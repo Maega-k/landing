@@ -8,7 +8,7 @@ import Footer from './footer'
 const Home = () => {
   return (
     <>
-    
+    <Navbar />
     <Hero />
     <Reviews />
     <Footer />
@@ -17,3 +17,4 @@ const Home = () => {
 }
 
 export default Home
+

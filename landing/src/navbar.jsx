@@ -12,7 +12,7 @@ function Navbar() {
       <nav className="hidden md:block container mx-auto p-9 bg-orange">
         <div className="flex items-center justify-between">
           <div>
-            <img src="img/needle.svg" alt="Logo" className="h-8 px-7" />
+            <img src="public/img/needle.svg" alt="Logo" className="h-8 px-7" />
           </div>
           <div className="space-x-5">
             <motion.div
@@ -73,7 +73,7 @@ function Navbar() {
           className="fixed top-0 right-0 w-64 h-full bg-orange z-50 shadow-lg flex flex-col p-6"
         >
           <div className="flex justify-between items-center mb-8">
-            <img src="img/needle.svg" alt="Logo" className="h-8" />
+            <img src="public/img/needle.svg" alt="Logo" className="h-8" />
             <button
               onClick={() => setSidebarOpen(false)}
               className="text-white"

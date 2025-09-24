@@ -37,7 +37,7 @@ function Hero (){
                 transition={{ duration: 0.8, delay: 0.3 }}
             >
                 <motion.img
-                    src="public/img/sewing-machine.svg"
+                    src="img/sewing-machine.svg"
                     alt="Hero Image"
                     className="h-64"
                     initial={{ scale: 0.8, opacity: 0 }}
@@ -57,7 +57,7 @@ function Hero (){
                 transition={{ duration: 0.8 }}
             >
                 <motion.img
-                    src="public/img/service.svg"
+                    src="img/service.svg"
                     alt="Service Image"
                     className="h-60"
                     initial={{ scale: 0.8, opacity: 0 }}

@@ -9,10 +9,10 @@ function Navbar() {
   return (
     <>
       {/* Desktop Navbar */}
-      <nav className="hidden md:block container mx-auto p-9 bg-orange">
+      <nav className="hidden md:block container mx-auto p-9 bg-bluee">
         <div className="flex items-center justify-between">
           <div>
-            <img src="img/needle.svg" alt="Logo" className="h-8 px-7" />
+            <img src="public/img/needle.svg" alt="Logo" className="h-8 px-7" />
           </div>
           <div className="space-x-5">
             <motion.div
@@ -52,8 +52,8 @@ function Navbar() {
       </nav>
 
       {/* Mobile Navbar - Hamburger */}
-      <nav className="md:hidden bg-orange p-4 flex items-center justify-between">
-        <img src="img/needle.svg" alt="Logo" className="h-8 px-2" />
+      <nav className="md:hidden bg-bluee p-4 flex items-center justify-between">
+        <img src="public/img/needle.svg" alt="Logo" className="h-8 px-2" />
         <button
           onClick={() => setSidebarOpen(true)}
           className="text-white"
@@ -70,7 +70,7 @@ function Navbar() {
           animate={{ x: 0, opacity: 1 }}
           exit={{ x: '100%', opacity: 0 }}
           transition={{ type: 'spring', stiffness: 300, damping: 30 }}
-          className="fixed top-0 right-0 w-64 h-full bg-orange z-50 shadow-lg flex flex-col p-6"
+          className="fixed top-0 right-0 w-64 h-full bg-bluee z-50 shadow-lg flex flex-col p-6"
         >
           <div className="flex justify-between items-center mb-8">
             <img src="img/needle.svg" alt="Logo" className="h-8" />
@@ -97,7 +97,7 @@ function Navbar() {
                 Home
               </Link>
             </motion.div>
-             <motion.div
+            <motion.div
               whileHover={{ scale: 1.15 }}
               whileTap={{ scale: 0.95 }}
               transition={{ type: "spring", stiffness: 200 }}

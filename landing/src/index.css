@@ -2,7 +2,13 @@
 
 
 @theme{
-  --color-orange: hsl(36, 100%, 55%);
-  --color-lightorange: hsl(36, 100%, 65%);
+  --color-orange: hsl(36, 100%, 65%);
+  --color-lightorange: hsl(36, 100%, 35%);
   --color-darkorange: hsl(36, 100%, 40%);
+  --color-purple: #7b2ff7;
+  --color-lightpurple: #a44ff7;
+  --color-darkpurple: #5b0ff7;
+  --color-bluee: #98b6c2;
+  --color-bluey: #d4e5ef;
+  --color-bluer: #bdcbd2;
 }

@@ -13,7 +13,7 @@ function Hero (){
                 transition={{ duration: 0.8 }}
             >
                 <motion.h1
-                    className="text-4xl text-lightorange font-bold"
+                    className="text-4xl text-bluee font-bold"
                     initial={{ scale: 0.8, opacity: 0 }}
                     animate={{ scale: 1, opacity: 1 }}
                     transition={{ duration: 0.7, delay: 0.2 }}
@@ -37,7 +37,7 @@ function Hero (){
                 transition={{ duration: 0.8, delay: 0.3 }}
             >
                 <motion.img
-                    src="img/sewing-machine.svg"
+                    src="public/img/sewing-machine.svg"
                     alt="Hero Image"
                     className="h-64"
                     initial={{ scale: 0.8, opacity: 0 }}
@@ -57,7 +57,7 @@ function Hero (){
                 transition={{ duration: 0.8 }}
             >
                 <motion.img
-                    src="img/service.svg"
+                    src="public/img/service.svg"
                     alt="Service Image"
                     className="h-60"
                     initial={{ scale: 0.8, opacity: 0 }}
@@ -74,7 +74,7 @@ function Hero (){
                 transition={{ duration: 0.8, delay: 0.2 }}
             >
                 <motion.h2
-                    className="text-3xl text-lightorange font-bold"
+                    className="text-3xl text-bluee font-bold"
                     initial={{ scale: 0.8, opacity: 0 }}
                     whileInView={{ scale: 1, opacity: 1 }}
                     viewport={{ once: true }}

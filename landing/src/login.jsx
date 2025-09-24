@@ -31,7 +31,7 @@ export default function Login() {
 
   return (
     <>
-     <Navbar />
+    <Navbar />
     <motion.div
       className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center p-4"
       initial={{ opacity: 0 }}
@@ -59,7 +59,7 @@ export default function Login() {
             transition={{ duration: 0.7, delay: 0.4 }}
           >
             <motion.div
-              className="w-16 h-16 bg-gradient-to-br from-orange to-white rounded-full mx-auto mb-4 flex items-center justify-center"
+              className="w-16 h-16 bg-gradient-to-br from-bluee to-white rounded-full mx-auto mb-4 flex items-center justify-center"
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               transition={{ duration: 0.7, delay: 0.5 }}
@@ -160,7 +160,7 @@ export default function Login() {
               {/* Submit button */}
               <motion.button
                 onClick={handleSubmit}
-                className="w-full bg-gradient-to-br from-orange to-white-50 text-white my-4 py-3 rounded-lg font-semibold hover:from-darkorange hover:to-white-100 transition-all transform hover:scale-[1.02] active:scale-[0.98] shadow-lg"
+                className="w-full bg-gradient-to-br from-bluee to-white-50 text-white my-4 py-3 rounded-lg font-semibold hover:from-darkorange hover:to-white-100 transition-all transform hover:scale-[1.02] active:scale-[0.98] shadow-lg"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.98 }}
                 transition={{ duration: 0.2 }}

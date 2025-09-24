@@ -79,7 +79,7 @@ function Reviews(){
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.7, delay: 1 }}
             >
-                <Link to="/login" className="rounded-full bg-orange font-bold text-white text-2xl px-4 py-4 hover:text-black transition-transform duration-200 hover:scale-110">Sign-in</Link>
+                <Link to="/login" className="rounded-full bg-bluee font-bold text-white text-2xl px-4 py-4 hover:text-black transition-transform duration-200 hover:scale-120">Sign-in</Link>
             </motion.div>
         </section>
         </>

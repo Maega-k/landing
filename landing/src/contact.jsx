@@ -1,20 +1,20 @@
 import React from "react";
 import { Mail, Lock, User, Instagram, Twitter, Facebook, Chrome } from 'lucide-react';
 import { motion } from "framer-motion";
-import Navbar from './navbar';
+import Navbar from "./navbar";
 
 function Contact() {
   return (
     <>
     <Navbar />
     <motion.section
-      className="bg-gradient-to-br from-orange-100 to-orange-300 min-h-screen py-12 px-4 flex flex-col items-center"
+      className="bg-gradient-to-br from-bluey to-white-600 min-h-screen py-12 px-4 flex flex-col items-center"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.7 }}
     >
       <motion.h1
-        className="text-5xl font-extrabold text-orange mb-6 text-center"
+        className="text-5xl font-extrabold text-gray-700 mb-6 text-center"
         initial={{ y: -40, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.7, delay: 0.2 }}
@@ -43,7 +43,7 @@ function Contact() {
           transition={{ duration: 0.7, delay: 0.8 }}
         >
           <motion.h2
-            className="text-2xl font-bold text-orange mb-4"
+            className="text-2xl font-bold text-bluee mb-4"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 1 }}
@@ -51,17 +51,17 @@ function Contact() {
             Send Us a Message
           </motion.h2>
           <div className="mb-4">
-            <input type="text" placeholder="Your Name" className="w-full p-3 rounded-lg border border-orange-200 focus:outline-none focus:ring-2 focus:ring-orange" required />
+            <input type="text" placeholder="Your Name" className="w-full p-3 rounded-lg border border-bluer focus:outline-none focus:ring-2 focus:ring-lightorange" required />
           </div>
           <div className="mb-4">
-            <input type="email" placeholder="Your Email" className="w-full p-3 rounded-lg border border-orange-200 focus:outline-none focus:ring-2 focus:ring-orange" required />
+            <input type="email" placeholder="Your Email" className="w-full p-3 rounded-lg border border-bluer focus:outline-none focus:ring-2 focus:ring-lightorange" required />
           </div>
           <div className="mb-4">
-            <textarea placeholder="Your Message" className="w-full p-3 rounded-lg border border-orange-200 focus:outline-none focus:ring-2 focus:ring-orange" rows="4" required />
+            <textarea placeholder="Your Message" className="w-full p-3 rounded-lg border border-bluer focus:outline-none focus:ring-2 focus:ring-lightorange" rows="4" required />
           </div>
           <motion.button
             type="submit"
-            className="bg-orange text-white font-bold py-3 px-6 rounded-lg hover:bg-orange-600 transition-all w-full"
+            className="bg-bluer text-white font-bold py-3 px-6 rounded-lg hover:bg-bluee transition-all w-full"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.98 }}
             transition={{ duration: 0.2 }}
@@ -78,7 +78,7 @@ function Contact() {
         >
           <div>
             <motion.h2
-              className="text-2xl font-bold text-orange mb-4"
+              className="text-2xl font-bold text-bluee mb-4"
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 1.1 }}
@@ -112,7 +112,7 @@ function Contact() {
           </div>
           <div>
             <motion.h2
-              className="text-xl font-bold text-orange space-x-6 mb-2"
+              className="text-xl font-bold text-bluee space-x-6 mb-2"
               initial={{ opacity: 0, y: -10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 1.5 }}
@@ -122,8 +122,8 @@ function Contact() {
             <div className="flex gap-4">
               <motion.a
                 href="#"
-                whileHover={{ scale: 1.2, color: "#ea580c" }}
-                className="text-orange hover:text-orange-600 text-2xl"
+                whileHover={{ scale: 1.2, color: "#98b6c2"}}
+                className="text-bluee hover:text-bluey text-2xl"
                 title="Instagram"
                 transition={{ duration: 0.2 }}
               >
@@ -131,8 +131,8 @@ function Contact() {
               </motion.a>
               <motion.a
                 href="#"
-                whileHover={{ scale: 1.2, color: "#ea580c" }}
-                className="text-orange hover:text-orange-600 text-2xl"
+                whileHover={{ scale: 1.2, color: "#98b6c2"}}
+                className="text-bluee hover:text-bluey text-2xl"
                 title="Facebook"
                 transition={{ duration: 0.2 }}
               >
@@ -140,8 +140,8 @@ function Contact() {
               </motion.a>
               <motion.a
                 href="#"
-                whileHover={{ scale: 1.2, color: "#ea580c" }}
-                className="text-orange hover:text-orange-600 text-2xl"
+                whileHover={{ scale: 1.2, color: "#98b6c2" }}
+                className="text-bluee hover:text-bluey text-2xl"
                 title="Twitter"
                 transition={{ duration: 0.2 }}
               >
@@ -152,7 +152,7 @@ function Contact() {
         </motion.div>
       </motion.div>
     </motion.section>
-      </>
+    </>
   );
 }
 

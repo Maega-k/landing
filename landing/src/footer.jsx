@@ -3,7 +3,7 @@ import React from "react";
 function Footer(){
     return(
         <>
-         <footer className="bg-bluee text-white py-6 mt-12">
+         <footer className="bg-bluee text-white py-6 ">
       <div className="container mx-auto text-center">
         <p className="font-semibold">&copy; {new Date().getFullYear()} Ceeseams Tailoring Studio. All rights reserved.</p>
         <p className="text-sm mt-2">

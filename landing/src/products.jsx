@@ -8,7 +8,7 @@ function Products(){
     return(
         <>
         <Navbar />
-        <section className="bg-gradient-to-br from-bluey to-white-600 min-h-screen">
+        <section className="bg-gradient-to-br from-bluey to-white-600 min-h-screen pb-12">
             <div className="text-gray-800">
                 <motion.h1
                     className="text-center text-5xl font-extrabold pb-5 pt-5"

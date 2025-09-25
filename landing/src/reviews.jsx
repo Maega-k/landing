@@ -74,7 +74,7 @@ function Reviews(){
             </motion.div>
             </div>
             <motion.div
-                className="justify-center flex py-7"
+                className="justify-center flex py-7 mb-10"
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.7, delay: 1 }}
